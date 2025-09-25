@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>SIMPLE INTEREST CALCULATOR</h1>
+    </center>
+
+    <script>
+        let principal = 1000;
+        let annualInterestRate = 0.05;
+        let time = 2;
+        let interest = (1000*0.05*2);
+        let sum = (principal+interest);
+        var linebreak = "<br/>";
+        console. log("from script block");
+        document.write("principal amount = ");
+        document.write(principal)
+        document.write(linebreak)
+        document.write("Annual Interest rate of 5% at = ")
+        document.write(annualInterestRate)
+        document.write(linebreak)
+        document.write("Time = ")
+        document.write(time)
+        document.write(linebreak)
+        document.write("Total amount = ")
+        document.write(sum)
+        document.write(linebreak)
+        document.write(`Ater ${time}  at an interest rate of ${annualInterestRate}, the total amount will be ${sum}`)
+    </script>
+</body>
+</html>
